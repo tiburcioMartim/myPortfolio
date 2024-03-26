@@ -1,0 +1,113 @@
+.mt-header-main {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+}
+
+.mt-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    position: relative;  
+}
+
+.mt-header::after{
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '';
+    background-image: url('/assets/img/detail/detail-top.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+}
+
+.mt-header-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.mt-header-title {
+    text-align: center;
+    font-family: 'Neue Machina';
+}
+
+.mt-header-information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.mt-header-information p {
+    font-size: 1.125rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+}
+
+.mt-header-information p::before {
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    margin-right: .5rem;
+    display: inline-block;
+}
+
+.ico-job::before {
+    background-image: url('/assets/img/icon/job.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ico-location::before {
+    background-image: url('/assets/img/icon/location.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ico-whatsapp::before {
+    background-image: url('/assets/img/icon/whatsapp.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ico-linkedin::before {
+    background-image: url('/assets/img/icon/linkedin.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ico-email::before {
+    background-image: url('/assets/img/icon/email.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (min-width: 768px) {
+    .mt-header {
+        display: grid;
+        grid-template-areas:
+            "photo title"
+            "photo information";
+    }
+
+    .mt-header .mt-header-photo{
+        grid-area: photo;
+        margin: auto;
+    }
+
+    .mt-header .mt-header-title{
+        grid-area: title;
+        text-align: start;
+        max-width: 200px;
+    }
+
+    .mt-header .mt-header-information{
+        grid-area: information;
+    }
+}
