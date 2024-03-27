@@ -47,6 +47,7 @@
 }
 
 .acordeon .content{
+    width: 100%;
     overflow: hidden;
     height: 0;
     opacity: 0;
