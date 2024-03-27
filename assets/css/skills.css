@@ -1,10 +1,16 @@
+.div-mt_professionals_skills{
+    /* border: 1px solid #000; */
+    margin-right: 2rem;
+}
+
 .mt_professionals_skills {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: fit-content;
     padding: 0;
     list-style: none;
+    /* border: 1px solid #000; */
 }
 
 .mt_professionals_skills li img{
@@ -17,8 +23,10 @@
     width: fit-content;
     padding: 0;
     margin-left: 1.5rem;
+    /* border: 1px solid #000; */
 }
 
 .mt-list-img {
     margin: 0 1.5rem 1.5rem 0;
 }
+
