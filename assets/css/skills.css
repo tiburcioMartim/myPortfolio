@@ -1,5 +1,4 @@
 .div-mt_professionals_skills{
-    /* border: 1px solid #000; */
     margin-right: 2rem;
 }
 
@@ -10,7 +9,6 @@
     width: fit-content;
     padding: 0;
     list-style: none;
-    /* border: 1px solid #000; */
 }
 
 .mt_professionals_skills li img{
@@ -23,7 +21,6 @@
     width: fit-content;
     padding: 0;
     margin-left: 1.5rem;
-    /* border: 1px solid #000; */
 }
 
 .mt-list-img {

@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="assets/css/portfolio.css">
     <link rel="stylesheet" href="assets/css/education.css">
     <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/experience.css">
 </head>
 
 <body>
@@ -37,7 +38,11 @@
                 <p class="ico-job">Graduating in Computer Science</p>
                 <p class="ico-location">Nova Iguaçu - RJ</p>
                 <p class="ico-linkedin">
-                    <a href="https://www.linkedin.com/in/tiburciomartim/" target="_blank" rel="">tiburciomartim</a>
+                    <a href="https://www.linkedin.com/in/tiburciomartim/" target="_blank"
+                        rel="external">tiburciomartim</a>
+                </p>
+                <p class="ico-github">
+                    <a href="https://github.com/tiburcioMartim" target="_blank" rel="external">tiburcioMartim</a>
                 </p>
                 <p class="ico-whatsapp">
                     <a href="tel:21988860136">(21) 9-8886-0136</a>
@@ -59,7 +64,8 @@
                     <span>Professional skills: </span>
                     <ul class="mt_professionals_skills">
                         <li class="mt-list-img"><img src="/assets/img/icon/html.svg"
-                                alt="HTML (Hypertext Markup Language)">
+                                alt="HTML (Hypertext Markup Language)"
+                                title="Onde estudei? Faculdade Descomplica e Digital Inovation One">
                         </li>
 
                         <li class="mt-list-img"><img src="/assets/img/icon/css.svg" alt="CSS (Cascading Style Sheets)">
@@ -82,11 +88,11 @@
                 <div class="div-mt_personal_skills">
                     <span class="title">Personal skills:</span>
                     <ul class="mt_personal_skills">
-                        <li class="list-medio">Ease of practical tasks</li>
-                        <li class="list-medio">Communication</li>
-                        <li class="list-medio">Team work</li>
-                        <li class="list-medio">Organization</li>
-                        <li class="list-medio">Commitment to results</li>
+                        <li class="paragraph-info">Ease of practical tasks</li>
+                        <li class="paragraph-info">Communication</li>
+                        <li class="paragraph-info">Team work</li>
+                        <li class="paragraph-info">Organization</li>
+                        <li class="paragraph-info">Commitment to results</li>
                     </ul>
                 </div>
             </div>
@@ -116,32 +122,18 @@
                 <ul class="education">
                     <li>
                         <a class="title" href="#" target="_blank">Graduating in Computer Science - Descomplica</a>
-                        <span>I'm currently in the 1st period of the Computer Science course, which I'm falling more and
-                            more in love with every day. So far, I have studied the following subjects:
-                            <lu>
-                    <li>
-                        21st Century Computer Architecture
-                    </li>
-                    <li>
-                        Creation of Applications and Systems
-                    </li>
-                    <li>
-                        FrontEnd Development
-                    </li>
-                    </lu>
-                    </span>
-                    </li>
-                    <li>
-                        <a class="title" href="#" target="_blank">Program Logic - DIO</a>
-                        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum animi numquam error
-                            excepturi ut aliquam voluptatum ad illo ipsam dolores sit quas sint, natus cupiditate
-                            tenetur fugiat eius sunt autem.</span>
-                    </li>
-                    <li>
-                        <a class="title" href="#" target="_blank">JavaScript Developer Training - DIO</a>
-                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque totam tempore fugit
-                            quisquam ullam repellendus nesciunt eligendi similique, incidunt ad sequi odit ea itaque
-                            dolorum. Pariatur architecto veritatis rerum consequatur?</span>
+                        <div>
+                            <ul>
+                                <li>
+                                    I'm currently in the 1st period of the Computer Science course, which I'm falling
+                                    more and
+                                    more in love with every day. So far, I have studied the following subjects:
+                                </li>
+                                <li>21st Century Computer Architecture</li>
+                                <li>Creation of Applications and Systems</li>
+                                <li>FrontEnd Development</li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -158,24 +150,25 @@
                     <li>
                         <a class="title github"
                             href="https://tiburciomartim.github.io/academic-DIO-Pokedex-Training-JavaScript-Developer/"
-                            target="_blank">Academic - Pokedex</a>
-                        <span class="list-medio">Neste projeto é feita uma reqisição à Poke API, colaborando para meu
+                            target="_blank" rel="external">Academic - Pokedex</a>
+                        <span class="paragraph-info">Neste projeto é feita uma reqisição à Poke API, colaborando para
+                            meu
                             aprendizado em
                             Promises.</span>
                     </li>
                     <li>
                         <a class="title github"
-                            href="https://tiburciomartim.github.io/academic-DIO-PrototipeOfCalculator/"
-                            target="_blank">Academic - Calculator</a>
-                        <span class="list-medio">Essa calculadora foi desenvolvida com HTML, CSS e JavaScript para
+                            href="https://tiburciomartim.github.io/academic-DIO-PrototipeOfCalculator/" target="_blank"
+                            rel="external">Academic - Calculator</a>
+                        <span class="paragraph-info">Essa calculadora foi desenvolvida com HTML, CSS e JavaScript para
                             trazer a parte lógica do
                             software.</span>
                     </li>
                     <li>
                         <a class="title github"
                             href="https://tiburciomartim.github.io/academico-NLW-Expert-trilha-de-HTML-CSS-e-Javascript-da-Rocketset./"
-                            target="_blank">Academic - Quiz</a>
-                        <span class="list-medio">Partticipei de um evento NLW da RocketSeat e nesse evento foi
+                            target="_blank" rel="external">Academic - Quiz</a>
+                        <span class="paragraph-info">Partticipei de um evento NLW da RocketSeat e nesse evento foi
                             desenvolvido um quiz onde
                             expandiu meu entendimento sobre listas.</span>
                     </li>
@@ -184,13 +177,28 @@
         </section>
 
         <!-- EXPERIENCE -->
-        <section class="acordeon">
+        <section class="acordeon open">
             <button class="trigger" type="button">
                 Experience
             </button>
 
             <div class="content">
-                <ul class="portfolio">
+                <ul class="experience">
+                    <li>
+                        <span class="title">Seller</span>
+                        <p class="list-medio">
+                            Interlux Materiais Elétricos · Full-time
+                        </p>
+                        <p class="paragraph-info-sub date">
+                            Mar 2023 · Present
+                        </p>
+                        <p class="paragraph-info">
+                            Estou atualmente empregado nesta empresa e estou genuinamente apaixonado por tudo o que faço
+                            para contribuir com o seu crescimento. No entanto, recentemente tenho dedicado meu tempo a
+                            uma transição de carreira. Estou cursando Ciência da Computação, pois tenho paixão e
+                            facilidade em aprender nesta área de mercado.
+                        </p>
+                    </li>
                 </ul>
             </div>
         </section>
