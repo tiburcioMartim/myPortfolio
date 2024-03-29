@@ -1,10 +1,15 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "name": "Martim Tiburcio",
+  "photo": "https://avatars.githubusercontent.com/u/157258683?v=4",
+  "job": "Salesperson at Interlux Electrical Materials",
+  "location": "Nova Iguaçu - RJ",
+  "phone": "(21) 98886-0136",
+  "email": "tiburciomartim@gmail.com",
+
+
+
+
+  
   "skills": {
     "hardSkills": [
       {
@@ -41,10 +46,8 @@
     ]
   },
   "languages": [
-    "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Portuguese [BR]",
+    "Basic English"
   ],
   "portfolio": [
     {
