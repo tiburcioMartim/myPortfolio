@@ -13,9 +13,11 @@ function updateProfileInfo(profileData) {
     location.innerText = profileData.location
 
     const linkedin = document.getElementById('profile.linkedin')
+    linkedin.innerText = profileData.linkedin
     linkedin.href = profileData.linkLinkedin
     
     const github = document.getElementById('profile.github')
+    github.innerText = profileData.github
     github.href = profileData.linkGithub
 
     const phone = document.getElementById('profile.phone')
