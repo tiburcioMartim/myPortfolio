@@ -33,7 +33,7 @@ a:hover {
 
 .mt-header-main::before {
     content: '';
-    background-image: url('/assets/img/bg/background-degrade-top.svg');
+    background-image: url('https://raw.githubusercontent.com/tiburcioMartim/myPortfolio/main/assets/img/bg/background-degrade-top.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -47,7 +47,7 @@ a:hover {
 
 .mt-header-main::after {
     content: '';
-    background-image: url('/assets/img/bg/background-degrade-botton.svg');
+    background-image: url('https://raw.githubusercontent.com/tiburcioMartim/myPortfolio/main/assets/img/bg/background-degrade-botton.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;

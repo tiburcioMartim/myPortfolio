@@ -60,14 +60,25 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
-      "github": true
+      "name": "Academic - Pokedex",
+      "urlGithub": "https://github.com/tiburcioMartim/academic-DIO-Pokedex-Training-JavaScript-Developer",
+      "urlProject": "https://tiburciomartim.github.io/academic-DIO-Pokedex-Training-JavaScript-Developer/",
+      "github": true,
+      "content": "In this project, I made a request to the Poke API, which significantly contributed to my learning in Promises. This experience provided the opportunity to deepen my knowledge in web development and allowed me to explore the integration of third-party APIs into applications. Furthermore, the project was developed in partnership with Digital Innovation One, under the guidance of professor Renan Johannsen, which added even more value to my learning journey. I'm excited to apply these skills to future projects and continue expanding my knowledge in the area of ​​software development."
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-      "github": true
+      "name": "Academic - Calculator",
+      "urlGithub": "https://github.com/tiburcioMartim/academic-DIO-PrototipeOfCalculator",
+      "urlProject": "https://tiburciomartim.github.io/academic-DIO-PrototipeOfCalculator/",
+      "github": true,
+      "content": "This calculator was developed using HTML, CSS and JavaScript to implement the software logic. The experience of building this project gave me a deeper understanding of the integration between these technologies and how they work together to create a functional application. Furthermore, I had the opportunity to develop the project in collaboration with Digital Innovation One, which further enriched my learning journey. I look forward to applying these skills to future projects and continuing to improve my web development knowledge."
+    },
+    {
+      "name": "Academic - Quiz",
+      "urlGithub": "https://github.com/tiburcioMartim/academico-NLW-Expert-trilha-de-HTML-CSS-e-Javascript-da-Rocketset.",
+      "urlProject": "https://tiburciomartim.github.io/academico-NLW-Expert-trilha-de-HTML-CSS-e-Javascript-da-Rocketset./",
+      "github": true,
+      "content": "During RocketSeat's NLW event, I had the opportunity to participate in the development of a quiz that significantly expanded my understanding of using lists. The experience of collaborating on this project under the guidance of Professor Mayke Brito was extremely enriching, providing valuable insights into the manipulation and effective use of lists in web applications. I'm excited to apply this knowledge to future projects and continue to deepen my understanding of software development."
     }
   ],
   "professionalExperience": [
