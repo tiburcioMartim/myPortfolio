@@ -49,10 +49,26 @@ function updateLanguages(profileData) {
     languages.innerHTML = profileData.languages.map(lang => `<li class="paragraph-info">${lang}</li>`).join('')
 }
 
+function updateEducation(profileData) {
+    const education = document.getElementById('profile.education')
+    education.innerHTML = profileData.education.map(educ => `
+            <li>
+            <a class="title" href="${educ.href}" target="_blank">${educ.name}</a>
+            <p class="paragraph-info-sub date">
+                ${educ.date}
+            </p>
+            <p class="paragraph-info">
+                ${educ.content}
+            </p>
+        </li>
+    `).join('')
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
+    updateEducation(profileData)
 })()
