@@ -1,5 +1,5 @@
 async function fetchProfileData() {
-    const url = 'https://raw.githubusercontent.com/tiburcioMartim/myPortfolio/main/date/profile.json'
+    const url = 'https://raw.githubusercontent.com/tiburcioMartim/myPortfolio/main/data/profile.json'
     const fetching = await fetch(url)
-    return await fetching.json()    
+    return await fetching.json()
 }
