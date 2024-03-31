@@ -64,6 +64,23 @@ function updateEducation(profileData) {
     `).join('')
 }
 
+function updatePortfolio(profileData) {
+    const portfolio = document.getElementById('profile.portfolio')    
+    portfolio.innerHTML = profileData.portfolio.map(portf => `
+        <li>
+            <a class="title github" href="${portf.urlGithub}" target="_blank" rel="external">${portf.name}</a>
+
+            <a href="${portf.urlProject}" target="_blank" rel="external" class="paragraph-info-sub ico-globe-solid">
+                Link to ${portf.name} view
+            </a>
+
+            <span class="paragraph-info">
+                ${portf.content}
+            </span>
+        </li>
+    `).join('')
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
@@ -71,4 +88,5 @@ function updateEducation(profileData) {
     updateHardSkills(profileData)
     updateLanguages(profileData)
     updateEducation(profileData)
+    updatePortfolio(profileData)
 })()
