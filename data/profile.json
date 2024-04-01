@@ -19,23 +19,23 @@
     "hardSkills": [
       {
         "name": "HTML",
-        "logo": "../img/icon/html.svg"
+        "logo": "https://raw.githubusercontent.com/tiburcioMartim/myPortfolio/main/assets/img/icon/html.svg"
       },
       {
         "name": "CSS",
-        "logo": "../img/icon/css.svg"
+        "logo": "https://raw.githubusercontent.com/tiburcioMartim/myPortfolio/main/assets/img/icon/css.svg"
       },
       {
         "name": "JavaScript",
-        "logo": "../img/icon/js.svg"
+        "logo": "https://raw.githubusercontent.com/tiburcioMartim/myPortfolio/main/assets/img/icon/js.svg"
       },
       {
         "name": "Illustrator",
-        "logo": "../img/icon/ai.svg"
+        "logo": "https://raw.githubusercontent.com/tiburcioMartim/myPortfolio/main/assets/img/icon/ai.svg"
       },
       {
         "name": "Photoshop",
-        "logo": "../img/icon/psd.svg"
+        "logo": "https://raw.githubusercontent.com/tiburcioMartim/myPortfolio/main/assets/img/icon/psd.svg"
       }
     ],
     "softSkills": [
