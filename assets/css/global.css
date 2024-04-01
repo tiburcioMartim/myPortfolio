@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: 'Neue Machina';
-    src: url('/assets/fonts/neue-machina-regular.otf');
+    src: url('assets/fonts/neue-machina-regular.otf');
 }
 
 body {
@@ -33,7 +33,7 @@ a:hover {
 
 .mt-header-main::before {
     content: '';
-    background-image: url('https://raw.githubusercontent.com/tiburcioMartim/myPortfolio/main/assets/img/bg/background-degrade-top.svg');
+    background-image: url('https://raw.githubusercontent.com/tiburcioMartim/myPortfolio/mainassets/img/bg/background-degrade-top.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -47,7 +47,7 @@ a:hover {
 
 .mt-header-main::after {
     content: '';
-    background-image: url('https://raw.githubusercontent.com/tiburcioMartim/myPortfolio/main/assets/img/bg/background-degrade-botton.svg');
+    background-image: url('https://raw.githubusercontent.com/tiburcioMartim/myPortfolio/mainassets/img/bg/background-degrade-botton.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
@@ -78,7 +78,7 @@ a:hover {
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("/assets/img/icon/github.svg");
+    background-image: url("assets/img/icon/github.svg");
     margin-right: .5rem;
 }
 
@@ -109,6 +109,6 @@ a:hover {
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("/assets/img/icon/date.svg");
+    background-image: url("assets/img/icon/date.svg");
     margin-right: .125rem;
 }
