@@ -17,7 +17,7 @@
     top: 0;
     right: 0;
     content: '';
-    background-image: url('/assetsassets/img/detail/detail-top.svg');
+    background-image: url('../img/detail/detail-top.svg');
     background-repeat: no-repeat;
     background-size: contain;
     width: 2rem;
@@ -59,19 +59,19 @@
 }
 
 .ico-job::before {
-    background-image: url('/assetsassets/img/icon/job.svg');
+    background-image: url('../img/icon/job.svg');
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .ico-location::before {
-    background-image: url('/assetsassets/img/icon/location.svg');
+    background-image: url('../img/icon/location.svg');
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .ico-whatsapp::before {
-    background-image: url('/assetsassets/img/icon/whatsapp.svg');
+    background-image: url('../img/icon/whatsapp.svg');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -96,17 +96,17 @@
     color: #55569E;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assetsassets/img/icon/github-purple.svg');
+    background-image: url('../img/icon/github-purple.svg');
 }
 
 .ico-linkedin::before {
-    background-image: url('/assetsassets/img/icon/linkedin.svg');
+    background-image: url('../img/icon/linkedin.svg');
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .ico-email::before {
-    background-image: url('/assetsassets/img/icon/email.svg');
+    background-image: url('../img/icon/email.svg');
     background-repeat: no-repeat;
     background-size: contain;
 }
