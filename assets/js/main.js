@@ -106,7 +106,7 @@ function updateExperienceProfessional(profileData) {
                 ${e.description}
             </p>
         </li>
-    `)
+    `).join('')
 }
 
 (async () => {
