@@ -30,6 +30,16 @@ function updateProfileInfo(profileData) {
 
 }
 
+function updateBio(profileData) {
+    const bio = document.getElementById('profile.bio')
+    bio.innerHTML = profileData.bio.map(b => `
+        <h1 class="title">${b.title}</h1>
+        <span class="paragraph-info">
+            ${b.content}
+        </span>
+    `)
+}
+
 function updateSoftSkills(profileData) {
     const softSkills = document.getElementById('profile.skills.softSkills')
     softSkills.innerHTML = profileData.skills.softSkills.map(skills => `<li class="paragraph-info">${skills}</li>`).join('')
@@ -89,4 +99,5 @@ function updatePortfolio(profileData) {
     updateLanguages(profileData)
     updateEducation(profileData)
     updatePortfolio(profileData)
+    updateBio(profileData)
 })()
